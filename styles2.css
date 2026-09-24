@@ -35,8 +35,19 @@ body{
 
 #m5ts2p {
     font-weight: bold;
+    text-align: left;
 }
 
-#j2m3s0 {
-    font-weight: bold;
+table, th, td {
+    border: 1px solid;
+    width: 50%;
+
+}
+
+th {
+    font-size: 14;
+}
+
+.date {
+    float: right;
 }
