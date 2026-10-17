@@ -10,11 +10,10 @@ header {
 
 .navbar {
     display: flex;
-    background-color: lightblue;
+    background-color: aqua;
 }
 
 .navbar a {
-    color: green;
     padding: 14px 20px;
     text-decoration: underline;
     text-align: center;
@@ -29,7 +28,6 @@ header {
 }
 
 .content-head {
-
     width: 150px;
     padding: 25px;
     border: 10px;
@@ -57,10 +55,6 @@ footer {
 li {
     font-size: 10pt;
 }
-nav {
-    font-size: 12pt;
-    text-align: center;
-}
 
 h1 {
     font-size: 20pt;
@@ -71,7 +65,7 @@ p {
 }
 
 .heading {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .experience {
@@ -97,4 +91,21 @@ th {
 
 .date {
     float: right;
+}
+
+
+a:link {
+    background-color:navy;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+a:hover {
+    color: yellow;
+}
+
+body {
+    background-color: turquoise;
 }
