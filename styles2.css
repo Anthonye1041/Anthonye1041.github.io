@@ -1,7 +1,55 @@
 header {
+    width: 150px;
+    padding: 25px;
+    border: 10px;
+    margin: 3px;
+    font-size: 14pt;
+    text-align: center;
+    float: left;
+}
+
+.navbar {
+    display: flex;
+    background-color: lightblue;
+}
+
+.navbar a {
+    color: green;
+    padding: 14px 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.navbar .right {
+    margin-left: auto;
+}
+
+.content {
+    display: flex;
+}
+
+.content-head {
+
+    width: 150px;
+    padding: 25px;
+    border: 10px;
+    margin: 3px;
     font-size: 14pt;
     text-align: center;
 }
+
+.content-info {
+    flex-grow: 1;
+    padding: 25px;
+    border: 10px;
+    margin: 3px;
+}
+
+.content .date {
+    margin-left: auto;
+    order: 2
+}
+
 
 footer {
     text-align: center;
@@ -23,7 +71,7 @@ p {
 }
 
 .heading {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .experience {

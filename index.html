@@ -4,20 +4,28 @@
     <link rel="stylesheet" href="styles2.css" type="text/css">
 </head>   
 <body>
-<header>
+
+    <div class="navbar">
     <h1 class="heading">Anthony Etwaru</h1>
-    <img src="assets/blankAvatar.jpg" width="150" height="150">
-</header>
-<footer>
-    <p>(347) 555-1234 | anthonye1041@gmail.com | Queens, NY | <a href ="https://anthonye1041.github.io/">AnthonyEtwaru.github.io</a></p>
-</footer>
+    <a href="https://anthonye1041.github.io/" class="right">Home</a>
+    <a href="#projects">Gallery</a>
+    <a href="https://www.linkedin.com/in/anthony-etwaru-472738290/">LinkedIn</a>
+    </div>
 <nav>
-    <p><a href="https://anthonye1041.github.io/">Resume</a> | Personal Projects | <a href="https://www.linkedin.com/in/anthony-etwaru-472738290/">LinkedIn</a></p>
 </nav>
 <main>
+<aside>
+<div class="content">
+    <div class="content-head">
+    <header>
+        <img src="assets/blankAvatar.jpg" width="150" height="150">
+        <p>(347) 555-1234 | anthonye1041@gmail.com | Queens, NY | <a href ="https://anthonye1041.github.io/">AnthonyEtwaru.github.io</a></p>
+    </header>
+    </div>
+    <div class="content-info">
 <section>
     <h3 class="heading">EDUCATION</h3>
-    <p id="m5ts2p">LaGuardia Community College | Queens, NY<span class="date">Sept 2023 - Aug 2025</span> </p> <!--here the id selector overides the element selector because it is more specific-->
+    <p id="m5ts2p">LaGuardia Community College | Queens, NY <span class="date">Sept 2023 - Aug 2025</span> </p> <!--here the id selector overides the element selector because it is more specific-->
     <ul><li>Computer Science AS | GPA: 3.58</li></ul>
     <p id="m5ts2p">Hunter College | Manhattan, NY<span class="date">Jan 2025 - Dec 2027</span></p>
     <ul><li>Computer Science BA | GPA: 3.60</li></ul>
@@ -39,9 +47,10 @@
     <td>Computer Architecture</td>
     <td>Hunter College</td>
   </tr>
-</table>
-</section>
-<section>
+    </table>
+    </section>
+
+    <section>
     <h3 class="heading">PROFESSIONAL EXPERIENCE</h3>
     <p class="experience">Peer Advisor | LaGuardia Community College <span class="date">Mar 2025 - Aug 2025</span></p>
     <ul>
@@ -54,7 +63,7 @@
 
 <section>
     <h3 class="heading">HACKATHONS</h3>
-    <p class="experience">NYSEE | May 2026</p>
+    <p class="experience">NYSEE | MHC++ <span class="date">May 2026</span></p>
     <ul>
         <li>Working in a team of 5 to develop a web page to support visually impaired people in navigating NYC.</li>
         <li>Core functionality includes accessible UI, detecting information from images and relaying it audibly, locating nearest accessible pedestrian signals for user</li>
@@ -62,7 +71,9 @@
         <li>Played a supporting role, helping out whereever possible/needed</li>
     </ul>
 </section>
-
+    </div>
+</div>
+</aside>
 </main>
 
 </body>
