@@ -25,7 +25,7 @@
     width: 150px;
     padding: 25px;
     border: 10px;
-    margin: 3px;
+    margin: 10px;
     font-size: 14pt;
     text-align: center;
 }
@@ -60,8 +60,8 @@
     text-align: center;
 }
 .title {
-    width: 350px;
-    height: 80px;
+    width: 500px;
+    height: 90px;
     padding: 10px;
     color: black;
     text-align: left;
@@ -75,13 +75,13 @@
     overflow: auto;
     text-align: left;
     background-color: navy;
-    width: 350px;
-    height: 300px;
+    width: 500px;
+    height: 450px;
 }
 
 .description {
-    width: 350px;
-    height: 90px;
+    width: 500px;
+    height: 150px;
     padding: 10px;
     color: black;
     overflow: auto;
@@ -90,37 +90,15 @@
 }
 
 .gallery-item2 {
-    width: 350px;
-    height: 300px;
+    width: 500px;
+    height: 450px;
     padding: 10px;
     color: black;
     overflow: auto;
     text-align: center;
     background-color: navy;
 }
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 17pt;
-  } 
-}
 
-@media screen and (max-width: 768px) {
-    m5ts2p {
-        font-size: 17pt;
-  }
-}
-
-@media screen and (max-width: 768px) {
-    p {
-        font-size: 17pt;
-  }
-}
-
-@media screen and (max-width: 768px) {
-    header {
-        font-size: 17pt;
-  }
-}
 
 footer {
     text-align: center;
@@ -182,4 +160,34 @@ a:hover {
 
 body {
     background-color: turquoise;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 17pt;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+    m5ts2p {
+        font-size: 17pt;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .description p {
+        font-size: 14pt;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 17pt;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-item1 p {
+        font-size: 14pt;
+  }
 }
