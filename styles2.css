@@ -162,31 +162,31 @@ body {
     background-color: turquoise;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     body {
         font-size: 17pt;
   } 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     m5ts2p {
         font-size: 17pt;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .description p {
         font-size: 14pt;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     header {
         font-size: 17pt;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .gallery-item1 p {
         font-size: 14pt;
   }
